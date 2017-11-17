@@ -8,7 +8,7 @@ int main() {
 	for (a=1; a<=10; a++) {
 		cout <<"Tabla del " << a <<endl;
 		for (i=1; i<=10; i++)
-			cout << a << " X " << i << " = " << a*1 <<endl;
+			cout << a << " X " << i << " = " << a*i <<endl;
 	}
 
 }

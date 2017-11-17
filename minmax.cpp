@@ -12,13 +12,13 @@ int main() {
 	cin >> n;
 	max=n;
 	min=n;
-	for (i=1; i<=9; i++) {
+	for (i=9; i>=1; i--) {
+		cout <<"Introduce otro numero: ";
 		cin >> n;
-		sum=sum+n;
 		if (n>max) max=n;
 		if (n<min) min=n;
 	}
-	cout <<"La suma total es: " << sum <<endl;
+
 	cout <<"El numero mayor es: "<< max <<endl;
 	cout <<"El numero menor es: "<< min <<endl;
 }

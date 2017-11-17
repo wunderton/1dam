@@ -5,11 +5,11 @@ int main() {
 	int i;
 	double res=0;
 
-	cout << "Introduce un numero ";
+	cout << "Introduce un numero: ";
 	cin >> n;
-	for (i=1; i<=n; i++)
-		res +=(1.0-i)/i;
+	for (i=1; i<=n; i++) {
+		res=res+(1.0-i)/i;
+	}
 	cout <<"Resultado: " << res <<endl;
-
 
 }
